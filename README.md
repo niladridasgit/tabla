@@ -5,3 +5,5 @@ This project is designed to extract table names from HQL and SQL files reference
 | line number | required change |
 |----------|----------|
 | 5 | change `working_directory` variable with the path where these files are located in your local system |
+
+The main script retrieves the table names from HQL/SQL files located in the `queries` directory which are mentioned in Python scripts defining Airflow DAGs located in the `dags` directory, and then the retrived table names are saved into a CSV file named `final.csv`.
