@@ -68,7 +68,7 @@ for hql in hqls:
             table_names=set(re.findall(table_pattern, query.strip('\n').upper(), re.IGNORECASE))
             for i in table_names:
                 if i[1] not in cte_names:
-                    tables.append((python_file, hql_file, i[1], i[0]))
+                    tables.append((python_file, hql_file, i[1].strip(';'), i[0]))
     except Exception as e:
         print(f"NOT ABLE TO FOUND THE HQL - {hql}")
         tables.append((python_file, hql_file, "NOT FOUND", "NOT FOUND"))
