@@ -26,7 +26,7 @@ for file_name in dags:
         flag=0
         while i<len(s)-3:
             if flag==0:
-                if (s[i]+s[i+1]+s[i+2]+s[i+3])=="lqh." or (s[i]+s[i+1]+s[i+2]+s[i+3])=="lqs.":
+                if (s[i]+s[i+1]+s[i+2]+s[i+3])=="lqs.":
                     flag=1
                     continue
             elif flag==1:
