@@ -1,9 +1,9 @@
 0,1,2,3
-avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/acquisition_meta.sql,ACQUISITION.WATCHED_VIDEO_TEMP,FROM
+avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,ACQUISITION.WATCHED_VIDEO_TEMP,DROP TABLE
+avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,ACQUISITION.WATCHED_VIDEO_TEMP,CREATE TABLE
+avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,DATA_WAREHOUSE.WATCHED_VIDEO_DAILY_AGGREGATES_IST,FROM
+avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,RETENTION.CATEGORY_DEF,JOIN
 avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/acquisition_meta.sql,ACQUISITION.USER_ACQUISITION_META,JOIN
 avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/acquisition_meta.sql,ACQUISITION.MASTERUSERTABLESINCE2019,FROM
 avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/acquisition_meta.sql,ACQUISITION.USER_ACQUISITION_META,INSERT OVERWRITE TABLE
-avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,ACQUISITION.WATCHED_VIDEO_TEMP;,DROP TABLE
-avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,ACQUISITION.WATCHED_VIDEO_TEMP,CREATE TABLE
-avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,RETENTION.CATEGORY_DEF,JOIN
-avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/watched_video_temp.sql,DATA_WAREHOUSE.WATCHED_VIDEO_DAILY_AGGREGATES_IST,FROM
+avod/abc/User_Acquisition_meta/user_acq_meta.py,avod/abc/user_acquisition_meta/acquisition_meta.sql,ACQUISITION.WATCHED_VIDEO_TEMP,FROM
